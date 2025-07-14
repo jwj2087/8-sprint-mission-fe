@@ -93,7 +93,7 @@ label{
     right: 24px;
 }
 
-.btn_login{
+.btn_signup{
     width: 100%;
     height: 56px;
     display: flex;
@@ -112,10 +112,9 @@ label{
     line-height: 32px; /* 160% */
     cursor: pointer;
 }
-.btn_login:focus{
+.btn_signup:focus{
     background-color: var(--Primary-100);
 }
-
 
 .sns_login{
     display: flex;
@@ -157,7 +156,8 @@ label{
     background-color: #F5E14B;
 }
 
-.signup span{
+.login{margin-bottom: 20px;}
+.login span{
     color: var(--Secondary-800);
     /* pretendard/md-14px-medium */
     font-family: Pretendard;
@@ -166,7 +166,7 @@ label{
     font-weight: 500;
     line-height: 24px; /* 171.429% */
 }
-.a_signup{
+.a_login{
     color: var(--Primary-100);
     font-family: Pretendard;
     font-size: 14px;

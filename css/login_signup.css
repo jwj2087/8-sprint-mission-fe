@@ -1,7 +1,7 @@
 /* font */
 @font-face {
     font-family: "ROKAF Sans";
-    src: url("../font/ROKAF\ Sans\ Medium.ttf");
+    src: url("../font/ Sans\ Medium.ttf");
 }
 /* color */
 :root{
@@ -93,7 +93,7 @@ label{
     right: 24px;
 }
 
-.btn_login{
+.btn{
     width: 100%;
     height: 56px;
     display: flex;
@@ -112,7 +112,7 @@ label{
     line-height: 32px; /* 160% */
     cursor: pointer;
 }
-.btn_login:focus{
+.btn:focus{
     background-color: var(--Primary-100);
 }
 
@@ -157,7 +157,8 @@ label{
     background-color: #F5E14B;
 }
 
-.signup span{
+.etc{margin-bottom: 20px;}
+.etc span{
     color: var(--Secondary-800);
     /* pretendard/md-14px-medium */
     font-family: Pretendard;
@@ -166,7 +167,7 @@ label{
     font-weight: 500;
     line-height: 24px; /* 171.429% */
 }
-.a_signup{
+.page_move{
     color: var(--Primary-100);
     font-family: Pretendard;
     font-size: 14px;
